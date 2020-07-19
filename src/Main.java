@@ -4,7 +4,7 @@ public class Main {
         Scanner sc =new Scanner(System.in);
         int[] tree1 = new int[50];
         int[] tree2 =new int[50];
-        int n = sc.nextInt(); // 砍了n棵树
+        int n = sc.nextInt(); // 砍了n棵
         for(int i=0;i<n;i++){
             int temp=sc.nextInt();
             if(temp%2==0){
